@@ -1,0 +1,19 @@
+1. Define dictionary course_room with course numbers as keys and lists of room number, instructor, and meeting time as values
+
+Function get_course_details(course_number):
+    If course_number is in course_room:
+        Retrieve course details from course_room using course_number
+        Format and return course details as a string
+    Else:
+        Return an error message indicating the course number is not available
+
+Function main:
+    While True:
+        Prompt user to enter a course number or 'exit' to quit
+        If user input is 'exit':
+            Print "exiting the loop"
+            Break the loop
+        Call get_course_details with user input and print the returned details
+
+If this script is executed directly:
+    Call the main function
